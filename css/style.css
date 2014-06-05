@@ -1,0 +1,115 @@
+html
+{
+	height: 100%;
+	width: 100%;
+	min-height: 50%;
+	min-width: 50%
+		font-family: 'Raleway', sans-serif;
+}
+
+
+body
+{
+	width:100%;
+	min-width: 50%;
+	font-family: 'Raleway', sans-serif;
+	height: 100%;
+	font-weight: 100;
+
+}
+
+#layout 
+{
+	
+	width:90%;
+	background-image: url('../Images/paddyfield.png'); background-repeat:no-repeat;
+	margin:0 auto;
+	text-align:center;
+	padding: 5px;
+	height:100%;
+	border: 1px solid white;
+}
+
+.fontawesome
+{
+	font-weight: 100;
+	margin:0 auto;
+	padding: 5px;
+	text-shadow: 1px 1px 1px #000;
+	width: 700px;
+	text-align: center;
+}
+
+h1
+{
+	font-size: 80px;
+}
+
+p
+{
+font-size: 30px;
+width: 500px;
+margin:0 auto;
+}
+
+.p1
+{
+	text-align: center;
+	border: 1px solid black;
+	border-radius:2px;
+	width:300px;
+	background-color:#F6CB51;
+	opacity: 0.5;
+	padding: 4px;
+	font-weight: 200;
+	position: absolute;
+	right:75px;
+	margin-top: 20px;
+	font-size: 15px;
+}
+
+#latestnews
+{
+	position: absolute;
+	padding: 4px;
+	top:30px;
+	right: 75px;
+	width: 300px;
+	height: 200px;
+	text-align: center;
+	float: right;
+	border: 1px solid black;
+	font-weight: 100;
+}
+
+.navbar
+{
+	position: absolute;
+	padding: 4px;
+	top: 50px;
+	left:90px;
+	width: 200px;
+	text-align: center;
+	opacity: 0.8;
+	font-weight: 100;
+}
+h2
+{
+	font-weight: 200;
+}
+
+.ln
+{
+	font-weight: 200;
+	padding: 40px;
+}
+
+#footer 
+{
+	position:absolute;
+	bottom: 10px;
+	background-color: #F6CB51;
+	opacity: 0.8;
+	width:90%;
+}
+
