@@ -1,98 +1,129 @@
-html
-{
-	height: 100%;
-	width: 100%;
-	min-height: 50%;
-	min-width: 50%
-		font-family: 'Raleway', sans-serif;
-}
-
-
 body
 {
 	width:100%;
-	min-width: 50%;
 	font-family: 'Raleway', sans-serif;
-	height: 100%;
 	font-weight: 100;
-
+	background-image: url('../Images/paddyfield.png'); background-repeat:repeat-x;
+	margin:0 auto;
 }
 
-#layout 
+img
 {
-	
-	width:90%;
-	background-image: url('../Images/paddyfield.png'); background-repeat:no-repeat;
+margin: 0 auto;
+}
+
+/*@media (max-width: 1800px){
+	#layout {
+		width:90%;
+	}
+
+	.fontawesome
+	{
+		width: 65%;
+	}
+	.p1{
+		width:40%;
+	}
+#latestnews
+{
+	width: 30%;
+}
+.navbar
+{
+	width: 30%;
+}
+
+}
+*/
+
+#headerover
+{
 	margin:0 auto;
 	text-align:center;
-	padding: 5px;
-	height:100%;
-	border: 1px solid white;
+	width:100%;
+	height:220px;
+	margin-top: 30px;
+	padding: 20px;
+	display: block;
 }
 
-.fontawesome
-{
-	font-weight: 100;
-	margin:0 auto;
-	padding: 5px;
-	text-shadow: 1px 1px 1px #000;
-	width: 700px;
-	text-align: center;
-}
 
 h1
 {
-	font-size: 80px;
+	font-size: 60px;
+	font-weight: 100;
+	margin:0 auto;
+	text-shadow: 1px 1px 1px #000;
+	text-align: center;
+	width: 500px;
+	opacity:1;
 }
 
-p
+.p2
 {
-font-size: 30px;
-width: 500px;
+font-size: 20px;
 margin:0 auto;
+width:400px;
+margin-top: 30px;
+
 }
 
-.p1
+#blocks
 {
-	text-align: center;
-	border: 1px solid black;
-	border-radius:2px;
-	width:300px;
+	width: 100%;
+}
+
+.block1, .block2, .block3, .block4, .block5, .block6, .block7, .block8
+{
+	border-radius:100%;
 	background-color:#F6CB51;
-	opacity: 0.5;
+	opacity: 0.8;
 	padding: 4px;
-	font-weight: 200;
-	position: absolute;
-	right:75px;
-	margin-top: 20px;
-	font-size: 15px;
+	margin:0 auto;
+	margin-left: 50px;
+	margin-top:10px;
+	text-align: center;
+	width:250px;
+	height:250px;
+	overflow: hidden;
+	display: inline-block;
 }
 
-#latestnews
+
+.stylep
 {
-	position: absolute;
+	font-weight: 200;
+	font-size: 15px;
+margin:0 auto;
+	float left;
+}
+
+#logo
+{
 	padding: 4px;
-	top:30px;
-	right: 75px;
-	width: 300px;
-	height: 200px;
+	width:150px;
+	height:150px;
 	text-align: center;
-	float: right;
+	float: left;
 	border: 1px solid black;
 	font-weight: 100;
+	margin-right: 10px;
+	margin-top:-220px;
 }
 
 .navbar
 {
-	position: absolute;
+float:right;
 	padding: 4px;
-	top: 50px;
-	left:90px;
 	width: 200px;
 	text-align: center;
 	opacity: 0.8;
-	font-weight: 100;
+	font-weight: 200;
+	margin-top:-220px;
+	margin-right: 20px;
 }
+
+
 h2
 {
 	font-weight: 200;
@@ -106,10 +137,14 @@ h2
 
 #footer 
 {
-	position:absolute;
 	bottom: 10px;
 	background-color: #F6CB51;
+	border-radius: 30px;
 	opacity: 0.8;
-	width:90%;
+	width:50%;
+	margin-left: 0;
+	margin:0 auto;
+	text-align: center;
+	display: block;
 }
 
