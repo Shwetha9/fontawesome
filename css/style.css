@@ -1,40 +1,42 @@
 body
 {
 	width:100%;
+	height: 100%;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 100;
-	background-image: url('../Images/paddyfield.png'); background-repeat:repeat-x;
-	margin:0 auto;
+	
 }
 
-img
-{
-margin: 0 auto;
-}
-
-/*@media (max-width: 1800px){
-	#layout {
-		width:90%;
+@media (max-width: 640px){
+	#wholelayout {
+		height:auto;
 	}
 
-	.fontawesome
-	{
-		width: 65%;
+	h1{
+		font-size:24px;
 	}
-	.p1{
-		width:40%;
-	}
-#latestnews
+#navbar
 {
-	width: 30%;
-}
-.navbar
-{
-	width: 30%;
-}
+	display:none;
+
 
 }
-*/
+.block3, .block4, .block5, .block6, .block7, .block8
+{
+	display: none;
+}
+}
+
+
+#wholelayout
+{
+	width:90%;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+	background-repeat: no-repeat;
+	background-image: url('../Images/paddyfield.png'); background-repeat:no-repeat;
+}
 
 #headerover
 {
@@ -79,9 +81,9 @@ margin-top: 30px;
 	background-color:#F6CB51;
 	opacity: 0.8;
 	padding: 4px;
-	margin:0 auto;
-	margin-left: 50px;
+	margin-left: 90px;
 	margin-top:10px;
+	margin-bottom: 10px;
 	text-align: center;
 	width:250px;
 	height:250px;
@@ -107,7 +109,7 @@ margin:0 auto;
 	float: left;
 	border: 1px solid black;
 	font-weight: 100;
-	margin-right: 10px;
+	margin-left: 10px;
 	margin-top:-220px;
 }
 
@@ -137,14 +139,13 @@ h2
 
 #footer 
 {
-	bottom: 10px;
-	background-color: #F6CB51;
-	border-radius: 30px;
-	opacity: 0.8;
-	width:50%;
-	margin-left: 0;
-	margin:0 auto;
+	background-color:#F6CB51;
+	opacity: 0.7;
+	width:90%;
+	height:150px;
 	text-align: center;
-	display: block;
+	margin:0 auto;
+	padding-top: 40px;
+	border: 10px solid white;
 }
 
